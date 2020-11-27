@@ -1,0 +1,19 @@
+{
+  "name": "enzoferaud.github.io",
+  "version": "1.0.0",
+  "description": "Mon CV sur GutHub",
+  "main": "indextest.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoFeraud/enzoferaud.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnzoFeraud/enzoferaud.github.io/issues"
+  },
+  "homepage": "https://github.com/EnzoFeraud/enzoferaud.github.io#readme"
+}
