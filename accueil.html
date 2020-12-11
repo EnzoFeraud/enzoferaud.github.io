@@ -9,6 +9,8 @@
           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <title>E-Portfolio</title>
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 
 
@@ -17,8 +19,8 @@
 <body>
 
 
-<nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Feraud Enzo</a>
+<nav class="navbar navbar-expand-lg navbar-light navbar-transparent">
+    <a class="navbar-brand" href="accueil.html">Feraud Enzo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -75,12 +77,15 @@
     <img alt="matete" src="images/zitor.png" data-toggle="modal" data-target="#exampleModal">
 
 </p>
-<blockquote>
-    <p>
-    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enzo Feraud</h1>
-    <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technicien Informatique et Réseau</h5>
-    </p>
-</blockquote>
+<div class="animate__animated animate__jackInTheBox">
+    <blockquote>
+        <p>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enzo Feraud</h1>
+        <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technicien Informatique et Réseau</h5>
+        </p>
+    </blockquote>
+</div>
+
 <br>
 
 
@@ -97,36 +102,38 @@
 
 
 <br>
-
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <div class="card">
-                <div class="card-header">
-                    <font color="red"><i class="fas fa-user-graduate"></i></font> Mes Projet / Mes Veilles
-                </div>
-                <div class="card-body">
-                    <ul>
-                        <li><a href="La5G.html">5G Veille</a></li>
-                        <li><a href="LaFibre.html">Fibre Veille</a></li>
-                    </ul>
+<div class="animate__animated animate__fadeIn">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <font color="red"><i class="fas fa-user-graduate"></i></font> Mes Projet / Mes Veilles
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="La5G.html">5G Veille</a></li>
+                            <li><a href="LaFibre.html">Fibre Veille</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card-header">
-                    <font color="red"><i class="fas fa-star"></i></font> Moi
-                </div>
-                <div class="card-body">
-                    <li>Alternant a IXblue en tant que technicien Informatique/Réseau</li>
-                    <br>
-                    <li> Brevet de technicien supérieur - Services informatiques aux organisations a l'école pratique</li>
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <font color="red"><i class="fas fa-star"></i></font> Moi
+                    </div>
+                    <div class="card-body">
+                        <li>Alternant a IXblue en tant que technicien Informatique/Réseau</li>
+                        <br>
+                        <li> Brevet de technicien supérieur - Services informatiques aux organisations a l'école pratique</li>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
